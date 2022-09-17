@@ -1,8 +1,10 @@
 #include<stdio.h>
 /**
- * main - Entry point
- * Return: 0 (success)
- */
+* main - Entry point
+* listing data types and modifiers with their aguments as variables
+* sizeof evaluates the sizes of the data types and modifiers
+* Return: 0 once successful
+*/
 int main(void)
 {
 	char chartype;
@@ -11,11 +13,11 @@ int main(void)
 	long long int b;
 	float floattype;
 
-	printf("size of char: %d byte(s)\n", sizeof(char));
-	print("size of int: %d byte(s)\n", sizeof(int));
-	printf("size of long int: %d byte(s)\n", sizeof(long int));
-	printf("size of long long int: %d byte(s)\n", sizeof(long long int));
-	printf("size of float: %d bytes(s)\n", sizeof(float));
+	printf("size of a char: %zu byte(s)\n", sizeof(chartype));
+	printf("size of an int: %zu byte(s)\n", sizeof(inttype));
+	printf("size of a long int: %d byte(s)\n", sizeof(a));
+	printf("size of a long long int: %d byte(s)\n", sizeof(b));
+	printf("size of a float: %zu bytes(s)\n", sizeof(floattype));
 
 	return (0);
 }
