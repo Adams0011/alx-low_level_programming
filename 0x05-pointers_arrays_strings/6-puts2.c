@@ -6,14 +6,14 @@
  */
 void puts2(char *str)
 {
-	int b;
+	int a;
 
-	b = 0;
-	for (; str[b] != '\0'; b++)
+	a = 0;
+	for (; str[a] != '\0'; a++)
 	{
-		if ((b % 2) == 0)
+		if ((a % 2) == 0)
 		{
-			_putchar(str[b]);
+			_putchar(str[a]);
 		}
 		else
 			continue;
