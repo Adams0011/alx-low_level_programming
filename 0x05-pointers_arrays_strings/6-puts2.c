@@ -4,7 +4,7 @@
  * @str: the pointer variable hold the user input
  * Return: printed character
  */
-void puts2(char *str)
+void puts2(char *str);
 {
 	int a;
 
