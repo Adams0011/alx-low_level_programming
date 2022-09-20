@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2 - the main function that print only one character out of two
+ * puts2 - function should omly print one character out of two
  * @str: the pointer variable hold the user input
  * Return: printed character
  */
@@ -16,7 +16,7 @@ void puts2(char *str)
 			_putchar(str[b]);
 		}
 		else
-			continue++;
+			continue;
 		}
 	}
 	_putchar('\n');
