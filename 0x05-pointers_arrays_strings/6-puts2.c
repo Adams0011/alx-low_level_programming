@@ -4,16 +4,16 @@
  * @str: the pointer variable hold the user input
  * Return: printed character
  */
-void puts2(char *str);
+void puts2(char *str)
 {
-	int a;
+	int b;
 
-	a = 0;
-	for (; str[a] != '\0'; a++)
+	b = 0;
+	for (; str[b] != '\0'; b++)
 	{
 		if ((a % 2) == 0)
 		{
-			_putchar(str[a]);
+			_putchar(str[b]);
 		}
 		else
 			continue;
