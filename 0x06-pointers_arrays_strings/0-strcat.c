@@ -2,7 +2,7 @@
 /**
  * _strcat - concatinate two strings
  * @src: the string to be appended to dest
- * @dest: The string in which src is appended to
+ * @dest: The string in which src is appended
  * Return: dest to the destination array
  */
 char *_strcat(char *dest, char *src)
@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 		{
 			c++;
 		}
-		/* copies the byte from string src */
+		/* copies the byte from string src*/
 		while (src[d] != '\0')
 		{
 			dest[c] = src[d];
