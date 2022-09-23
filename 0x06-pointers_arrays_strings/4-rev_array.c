@@ -6,13 +6,13 @@
  */
 void reverse_array(int *a, int n)
 {
-	int a;
+	int b;
 	int swp;
 
-	for (a = 0; a < n / 2; a++)
+	for (b = 0; b < n / 2; b++)
 	{
-		swp = a[a];
-		a[a] = a[(n - 1) - a];
-		a[(n - 1) - a] = swp;
+		swp = a[b];
+		a[b] = a[(n - 1) - b];
+		a[(n - 1) - b] = swp;
 	}
 }
