@@ -4,7 +4,7 @@
  * @c: the pointer variable to the character strings
  * Return: uppercase characters
  */
-char *string_toupper(char *c)
+char *string_toupper(char c *)
 {
 	int f;
 
