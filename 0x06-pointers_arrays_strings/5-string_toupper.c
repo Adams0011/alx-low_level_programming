@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * string_toupper - function that coverts lower case characters to uppercase
- * @c: the pointer variable to the character strings
+ * string_toupper -coverts lowercase characters in a string to uppercase
+ * @c: the pointer variable to the string of characters
  * Return: uppercase characters
  */
 char *string_toupper(char *c)
