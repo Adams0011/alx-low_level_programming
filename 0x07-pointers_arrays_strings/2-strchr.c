@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strchr - the function that searches a string for a given character
+ * _strchr - the function that searches a string for a given character
  * @s: the string given
  * @c: the character given
  * Return: returns pointer to character in string, or null
