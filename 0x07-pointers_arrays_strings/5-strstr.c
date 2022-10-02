@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * *_strstr - the function that finds a substring in a string
+ * *_strstr - the function that finds string inside string
  * @haystack: the string with all goodies
- * @needle: the substring to be found
+ * @needle: the string to be found
  * Return: the matching substring
  * Else, return null
  */
