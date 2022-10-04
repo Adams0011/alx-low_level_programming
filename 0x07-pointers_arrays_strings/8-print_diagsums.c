@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * print_diagsums - the function that prints sums of diagnals of square matrix
@@ -13,7 +13,7 @@ void print_diagsums(int *a, int size)
 	length = size * size;
 	i = 0;
 	sum1 = 0;
-	sum3 = 0;
+	sum2 = 0;
 
 	while (i < length)
 	{
