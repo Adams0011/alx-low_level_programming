@@ -8,20 +8,20 @@ i#include "main.h"
  */
 void print_diagsums(int *a, int size)
 {
-	int m, sum1, sum2, length;
+	int i, sum1, sum2, length;
 
 	length = size * size;
-	m = 0;
+	i = 0;
 	sum1 = 0;
 	sum3 = 0;
 
-	while (m < length)
+	while (i < length)
 	{
-		if (m % (size - 1) == 0 && m > 0 && m < (length - 1))
-			sum2 += *(a + m);
-		if (m % (size + 1) == 0)
-			sum1 += *(a + m);
-		m++;
+		if (i % (size - 1) == 0 && i > 0 && i < (length - 1))
+			sum2 += *(a + i);
+		if (i % (size + 1) == 0)
+			sum1 += *(a + i);
+		i++;
 	}
 	printf("%d, %d\n", sum1, sum2);
 }
